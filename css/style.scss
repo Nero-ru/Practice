@@ -1,0 +1,80 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+
+}
+
+.wrapper-inner {
+    margin: 0 auto;
+    max-width: 1040px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    
+}
+
+
+
+
+.header {
+    background-color: #87509c;
+
+    height: 100vh;
+
+    &-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        height: 100vh;
+    }
+
+    &-top {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+
+        &__img {
+
+        }
+
+        &-nav {
+
+            ul {
+                display: flex;
+            }
+
+            &__item {
+                list-style: none;
+
+                a {
+                    display: inline-block;
+                    padding: 10px 15px;
+
+                    text-decoration: none;
+                    color: #fff;
+                    text-transform: uppercase;
+
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    &-bottom {
+        margin-bottom: 145px;
+
+        &__title {
+
+        }
+
+        &__btn {
+            
+        }
+    }
+}
