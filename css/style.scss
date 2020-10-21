@@ -9,6 +9,13 @@ body {
     max-width: 1040px;
 }
 
+.underline {
+    width: 85px;
+    height: 4px;
+    background-color: #000000;
+    opacity: 0.15;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -117,42 +124,106 @@ body {
 
 .services {
     background-color: #17c2a4;
+    padding-top: 120px;
+    padding-bottom: 128px;
 
     &-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
     }
 
     &-text {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        text-align: center;
 
         &__title {
-
+            text-transform: uppercase;
+            font-size: 40px;
+            letter-spacing: 4px;
+            font-weight: 700;
         }
 
         &__subtitle {
-
+            max-width: 600px;
+            font-size: 18px;
+            line-height: 26px;
+            margin-top: 20px;
         }
     }
 
     &-advantages {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 80px;
+        
 
         &-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-basis: 192px;
+            text-align: center;
 
             &__img {
 
             }
 
-            &__title {
-                
+            &__title p {
+                margin-top: 60px;
+                font-size: 24px;
+                font-weight: 700;
+                text-transform: uppercase;
+                line-height: 1;
             }
 
-            &__text {
-                
+            &__text p {
+                margin-top: 27px;
+                line-height: 1;
+                font-size: 16px;
+                font-weight: 300;
             }
+        }
+    }
+}
+
+/* Team */
+.team {
+    color: #000;
+    background-color: #e7f1f8;
+    padding-top: 120px;
+    padding-bottom: 135px;
+
+
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        &__title {
+            color: #3c4761;
+            text-transform: uppercase;
+            font-size: 41px;
+            letter-spacing: 4px;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 20px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+            line-height: 26px;
+            margin-top: 20px;
         }
     }
 }
